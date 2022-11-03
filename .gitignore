@@ -1,0 +1,8 @@
+.idea/
+
+# Private files
+auth_credentials
+
+# Media
+downloaded_img/
+*.mp4

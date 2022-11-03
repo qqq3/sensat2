@@ -1,0 +1,1 @@
+ffmpeg -r 2 -f image2 -i downloaded_img/converted_img/sensat_%03d.jpg -vcodec libx264 -vf scale=2782:1538 -crf 25 -pix_fmt yuv420p Mazyr.mp4
